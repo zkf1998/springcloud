@@ -2,15 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4bb26c4-577b-4d0d-a8d0-42e91f2d743b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-fegin-hystrix-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-fegin-hystrix-order80/src/main/java/com/atguigu/springcloud/OrderHystrixMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-fegin-hystrix-order80/src/main/java/com/atguigu/springcloud/controller/OrderHystrixController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-fegin-hystrix-order80/src/main/java/com/atguigu/springcloud/service/PaymentFallbackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-fegin-hystrix-order80/src/main/java/com/atguigu/springcloud/service/PaymentHystrixService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-fegin-hystrix-order80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/PaymentHystrixMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/PaymentHystrixMain8001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/service/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/classes/META-INF/cloud-api-commons.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/atguigu/springcloud/entities/CommonResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/atguigu/springcloud/entities/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-fegin-hystrix-order80/target/classes/META-INF/cloud-consumer-fegin-hystrix-order80.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-fegin-hystrix-order80/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-fegin-hystrix-order80/target/classes/com/atguigu/springcloud/OrderHystrixMain80.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-fegin-hystrix-order80/target/classes/com/atguigu/springcloud/controller/OrderHystrixController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-fegin-hystrix-order80/target/classes/com/atguigu/springcloud/service/PaymentFallbackService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-fegin-hystrix-order80/target/classes/com/atguigu/springcloud/service/PaymentHystrixService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/META-INF/cloud-consumer-order80.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/myrule/MySelfRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/springcloud/OrderMain80.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/springcloud/config/ApplicationContextConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/springcloud/controller/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/springcloud/lb/LoadBalancer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/atguigu/springcloud/lb/MyLB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/com/atguigu/springcloud/EurekaMain7001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7002/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7002/target/classes/com/atguigu/springcloud/EurekaMain7002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/atguigu/springcloud/PaymentHystrixMain8001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/atguigu/springcloud/service/PaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/META-INF/cloud-provider-payment8001.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/springcloud/PaymentMain8001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/springcloud/dao/PaymentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/springcloud/service/PaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/springcloud/service/impl/PaymentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/mapper/PaymentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/springcloud/PaymentMain8002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/springcloud/controller/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/springcloud/dao/PaymentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/springcloud/service/PaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/springcloud/service/impl/PaymentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/mapper/PaymentMapper.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -186,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
-        <item itemvalue="Spring Boot.EurekaMain7001" />
-        <item itemvalue="Spring Boot.OrderMain80" />
         <item itemvalue="Spring Boot.PaymentMain8002" />
         <item itemvalue="Spring Boot.EurekaMain7002" />
+        <item itemvalue="Spring Boot.EurekaMain7001" />
+        <item itemvalue="Spring Boot.OrderMain80" />
+        <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +252,8 @@
       <workItem from="1614524478235" duration="3918000" />
       <workItem from="1614597514206" duration="5947000" />
       <workItem from="1614768177465" duration="2267000" />
+      <workItem from="1614932513388" duration="3795000" />
+      <workItem from="1619926335274" duration="255000" />
     </task>
     <servers />
   </component>
