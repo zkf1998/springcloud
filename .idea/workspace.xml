@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="b4bb26c4-577b-4d0d-a8d0-42e91f2d743b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/classes/META-INF/cloud-api-commons.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/atguigu/springcloud/entities/CommonResult.class" beforeDir="false" />
@@ -43,6 +44,9 @@
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/com/atguigu/springcloud/service/impl/PaymentServiceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/mapper/PaymentMapper.xml" beforeDir="false" />
     </list>
+=======
+    <list default="true" id="b4bb26c4-577b-4d0d-a8d0-42e91f2d743b" name="Default Changelist" comment="" />
+>>>>>>> Stashed changes
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
